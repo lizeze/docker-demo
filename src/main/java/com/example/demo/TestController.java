@@ -20,5 +20,10 @@ public class TestController {
 
         return "Docker12345";
     }
+    @GetMapping("/a")
+    public String Test1() {
+
+        return "这是新加的一个api";
+    }
 
 }
